@@ -1,0 +1,9 @@
+[submodule "themes/ayer"]
+	path = themes/ayer
+	url = /Users/bamboo/Serves/tesla/themes/ayer
+[submodule "themes/keep"]
+	path = themes/keep
+	url = /Users/bamboo/Serves/tesla/themes/keep
+[submodule "themes/volantis"]
+	path = themes/volantis
+	url = /Users/bamboo/Serves/tesla/themes/volantis
