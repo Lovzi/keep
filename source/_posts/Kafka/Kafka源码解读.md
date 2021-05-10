@@ -26,7 +26,13 @@ tags:
 
 ## 第二阶段. 了解Kafka个参数的作用
 
+##### ProducerConfig的优雅之处
 
+> 1. 通过自定义Map存储对象，类型Object，通过getInt()等对象来转型，比较优雅。
+> 2. 通过original(), parse()方法等方式去加载用户定义数据，可以借鉴
+> 3. 按照配置的需求定义ConfigDef、ConfigKey等数据结构
+
+1. 
 
 ## 第三阶段. 通读源码
 
@@ -198,10 +204,67 @@ tags:
 
 
 
+#### NetworkClient
+
+#### 收获优雅的代码
+
+1. 使用java.util.Objects类（不是Object）,通过requireNonNull函数来assert所有的空对象，nonNull来判断是否空对象
+
+```java
+public static <T> T requireNonNull(T var0, String var1) {
+        if (var0 == null) {
+            throw new NullPointerException(var1);
+        } else {
+            return var0;
+        }
+    }
+```
+
+1. 线程和业务代码隔离，业务代码继承Runnable, 并实现响应业务功能和run方法，传入到Thread对象中。
+
+```java
+   // org.apache.kafka.clients.producer.internals.Sender#Sender
+   this.sender = new Sender(client,
+                    this.metadata,
+                    this.accumulator,
+                    config.getInt(ProducerConfig.MAX_IN_FLIGHT_REQUESTS_PER_CONNECTION) == 1,
+                    config.getInt(ProducerConfig.MAX_REQUEST_SIZE_CONFIG),
+                    (short) parseAcks(config.getString(ProducerConfig.ACKS_CONFIG)),
+                    config.getInt(ProducerConfig.RETRIES_CONFIG),
+                    this.metrics,
+                    new SystemTime(),
+                    clientId,
+                    this.requestTimeoutMs);
+            String ioThreadName = "kafka-producer-network-thread" + (clientId.length() > 0 ? " | " + clientId : "");
+            //创建了一个线程，然后里面传进去了一个sender对象。
+            //把业务的代码和关于线程的代码给隔离开来。
+
+            //关于线程的这种代码设计的方式，其实也值得大家积累的。
+            this.ioThread = new KafkaThread(ioThreadName, this.sender, true);
+            //启动线程。
+            this.ioThread.start();
+```
+
+### 问题
+
+为什么通过isr机制，leader宕机，数据不会丢失
+
+[Kafka源码学习](https://app.yinxiang.com/shard/s41/nl/26228147/3a9ad4cd-ef37-4d11-bd6c-7239f11f3a31/)
+
+### 总结
+
+如何看源码？
+
+1. 场景驱动
+2. 画图
+3. 吸收优秀代码
+4. 对理解的代码写好注释
+
 ## 第四阶段. 庖丁解牛
 
 
 
 
 
-# ，
+1. 
+
