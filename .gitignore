@@ -8,5 +8,6 @@ public/
 
 # source/_posts/
 
-themes/
 
+.idea/
+keep-backup/
