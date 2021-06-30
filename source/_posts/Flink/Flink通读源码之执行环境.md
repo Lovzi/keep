@@ -1,2 +1,6 @@
-# Flink通读源码之执行环境
+
+
+Flink执行图
+
+## TypeInformation: 一个算子的描述信息
 

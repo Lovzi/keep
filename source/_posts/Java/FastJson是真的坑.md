@@ -1,4 +1,5 @@
 ---
+
 title: FastJson是真的坑
 date: 2021-03-25
 categories: Java
@@ -6,6 +7,8 @@ tags:
 	- Java	
 	- Json
 ---
+
+
 
 最近在熟悉Fastjson的过程，意外发现一个异常情况，每次反序列化json字符串，修改其中内容，在序列化的时候，发现其中某些值莫名的丢失了。 复现之后发现JsonObject对象的null值在序列化之后会将此key丢弃。 
 
