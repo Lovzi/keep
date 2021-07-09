@@ -1,9 +1,10 @@
 ---
 title: 编程语言之Scala
-date: 2021-01-25 16:01:01
 categories: Scala
 tags:
-	- Scala
+  - Scala
+abbrlink: afb93517
+date: 2021-01-25 16:01:01
 ---
 
 ### 1. scala简介

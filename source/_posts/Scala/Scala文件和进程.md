@@ -1,4 +1,14 @@
-## Scala文件和进程
+---
+title: Scala文件和进程
+categories: Scala
+tags:
+  - Scala
+abbrlink: 7e3741a7
+date: 2021-07-09 10:55:17
+---
+
+
+#
 
 ### 打开一个文件按行读取内容
 

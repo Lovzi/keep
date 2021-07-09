@@ -1,3 +1,13 @@
+---
+title: Flink源码分析方案
+categories: Flink
+tags:
+  - Flink
+abbrlink: 96c2cc2e
+date: 2021-07-09 10:55:17
+---
+
+
 #  Flink源码分析
 
  理论上讲，源码阅读应从github拉取最新代码，并从最初的版本进行学习，这样更让体会到框架从无到有，持续重构的思想。

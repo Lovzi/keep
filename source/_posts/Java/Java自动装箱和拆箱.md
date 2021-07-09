@@ -1,12 +1,13 @@
 ---
 title: Java自动装箱和拆箱
-date: 2021-01-25
 categories: Java
 tags:
-	- Java
+  - Java
+abbrlink: 256dfd05
+date: 2021-01-25 00:00:00
 ---
 
-# Java自动装箱和拆箱
+
 
 Java打着一切皆对象的旗号，给了8大基本类型都定义了包装类
 

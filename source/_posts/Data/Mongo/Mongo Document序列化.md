@@ -1,3 +1,13 @@
+---
+title: Mongo Document序列化
+categories: Mongo
+tags:
+  - Mongo
+abbrlink: 5632b686
+date: 2021-07-09 10:55:17
+---
+
+
 # Document序列化Json中 object类型转换问题
 
 

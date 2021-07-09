@@ -1,3 +1,13 @@
+---
+title: Idea修改代码规范
+categories: Brains
+tags:
+  - Brains
+abbrlink: 2a505619
+date: 2021-07-09 10:56:15
+---
+
+
 ## Scala规范
 
 ### 修改类缩进方式

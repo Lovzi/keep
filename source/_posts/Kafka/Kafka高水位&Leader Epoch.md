@@ -1,3 +1,13 @@
+---
+title: Kafka高水位&Leader Epoch
+categories: Kafka
+tags:
+  - Kafka
+abbrlink: 566a2fd7
+date: 2021-07-09 12:36:17
+---
+
+
 ### Kafka高水位和Leader Epoch机制
 
 ## 什么是高水位？

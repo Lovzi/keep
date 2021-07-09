@@ -1,3 +1,12 @@
+---
+title: MAC&IDEA&ITEM自定义快捷键
+categories: Java
+tags:
+  - Java
+  - 并发
+abbrlink: c8fd54f2
+date: 2021-02-17 00:00:00
+---
 #### MAC&IDEA&ITEM快捷键链接
 
 - [MAC键盘快捷键](https://support.apple.com/zh-cn/HT201236)

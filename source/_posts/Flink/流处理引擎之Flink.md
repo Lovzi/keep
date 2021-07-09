@@ -1,4 +1,18 @@
-# 流处理引擎之Flink
+---
+title: 流处理引擎之Flink
+categories: Flink
+tags:
+  - Flink
+abbrlink: b4a1c18a
+date: 2021-07-09 10:55:17
+---
+
+
+
+
+
+
+
 
 
 
@@ -26,3 +40,8 @@ InputFormat是用于生成数据的基本接口
 
 #### 问题： Barrier的发送？
 
+
+
+
+
+## 

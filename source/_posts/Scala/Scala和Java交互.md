@@ -1,3 +1,13 @@
+---
+title: Scala和Java交互
+categories: Scala
+tags:
+  - Scala
+abbrlink: c8408d8f
+date: 2021-07-09 10:55:17
+---
+
+
 # Scala和Java的交互
 
 ## Scala的隐式转换

@@ -1,4 +1,14 @@
-# Kafka偏移量问题
+---
+title: Kafka偏移量问题
+categories: Kafka
+tags:
+  - Kafka
+abbrlink: b2ff8171
+date: 2021-07-09 12:36:01
+---
+
+
+
 
 
 

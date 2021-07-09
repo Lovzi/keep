@@ -1,13 +1,11 @@
 ---
 title: Java8的新特性
-date: 2021-02-17
 categories: Java
 tags:
-	- Java
-
+  - Java
+abbrlink: 38dc13e5
+date: 2021-02-17 00:00:00
 ---
-
-## Java8的新特性
 
 Java8新增了一下新特性
 

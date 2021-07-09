@@ -1,9 +1,10 @@
 ---
 title: Kafka源码解读
-date: 2021-01-30 16:01:01
 categories: Kafka
 tags:
-	- Kafka
+  - Kafka
+abbrlink: 72017ffd
+date: 2021-01-30 16:01:01
 ---
 
 基于2.4.3进行分析，分析的过程参考了0.10版本的Kafka.

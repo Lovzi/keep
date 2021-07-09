@@ -1,14 +1,17 @@
 ---
 title: 消息引擎之Kafka
-date: 2021-01-30 16:01:01
 categories: Kafka
 tags:
-	- Kafka
+  - Kafka
+abbrlink: d93c59cd
+date: 2021-01-30 16:01:01
 ---
 
-# 消息引擎之Kafka
+
 
 ## Kafka压缩
+
+
 
 ### 小结
 

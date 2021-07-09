@@ -1,4 +1,8 @@
-# Gitlab调研
+---
+title: MAC&IDEA&ITEM自定义快捷键
+abbrlink: 2bd54fe2
+---
+
 
 ## 使用
 

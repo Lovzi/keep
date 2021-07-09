@@ -1,3 +1,13 @@
+---
+title: 创建Google账号&切换语言
+categories: Chrome
+tags:
+  - Chrome
+abbrlink: 4272a197
+date: 2021-07-09 10:56:11
+---
+
+
 
 
 切换语言： https://www.zhihu.com/question/22327155
