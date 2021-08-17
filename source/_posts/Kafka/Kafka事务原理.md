@@ -1,3 +1,10 @@
+---
+title: Kafka事务原理
+categories: Kafka
+tags:
+  - Kafka
+date: 2021-07-25 22:17:36
+---
 
 
 ## 幂等性

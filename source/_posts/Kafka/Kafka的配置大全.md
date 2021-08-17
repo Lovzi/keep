@@ -1,3 +1,10 @@
+---
+title: Kafka的配置大全
+categories: Kafka
+tags:
+  - Kafka
+date: 2021-07-29 14:42:48
+---
 
 
 ## Broker端参数
