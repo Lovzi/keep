@@ -7,6 +7,8 @@ abbrlink: 72017ffd
 date: 2021-01-30 16:01:01
 ---
 
+
+
 基于2.4.3进行分析，分析的过程参考了0.10版本的Kafka.
 
 分析路线：
@@ -37,7 +39,15 @@ date: 2021-01-30 16:01:01
 
 ## 第三阶段. 通读源码
 
+
+
+### KafkaProducer
+
+在对象构造器中启动线程会造成 this 指针的逃逸。理论上，Sender 线程完全能够观测到一个尚未构造完成的 KafkaProducer 实例。当然，在构造对象时创建线程没有任何问题，但最好是不要同时启动它。
+
 ### RecordAccumulator解读
+
+
 
 #### 添加批次之append方法梳理
 
@@ -264,8 +274,4 @@ public static <T> T requireNonNull(T var0, String var1) {
 ## 第四阶段. 庖丁解牛
 
 
-
-
-
-1. 
 
