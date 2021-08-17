@@ -3,6 +3,7 @@ title: Kafka事务原理
 categories: Kafka
 tags:
   - Kafka
+abbrlink: 9d1cc5b
 date: 2021-07-25 22:17:36
 ---
 

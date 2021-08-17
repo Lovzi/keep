@@ -3,6 +3,7 @@ title: Kafka的配置大全
 categories: Kafka
 tags:
   - Kafka
+abbrlink: 2a5e0fb0
 date: 2021-07-29 14:42:48
 ---
 
