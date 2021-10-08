@@ -1,3 +1,10 @@
+---
+title: Log4j2相关使用
+categories: Java
+tags:
+  - Java
+date: 2021-09-29 19:58:09
+---
 ## 为什么要使用Log4j2
 
 1.  设计用于审计日志框架， 解决了logback 和 log4j1.x 在某种情况会丢失事件， log4j2 已经解决了这个问题。 同时， 在logback中异常对于日志Appender是不可见的， 但是在log4j2 是可以配置去允许异常渗透到这个程序。 

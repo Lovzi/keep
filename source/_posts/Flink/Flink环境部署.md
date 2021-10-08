@@ -1,3 +1,10 @@
+---
+title: Flink环境部署
+categories: Flink
+tags:
+  - Flink
+date: 2021-09-23 15:36:33
+---
 本文基于Flink1.13.2进行部署， 下载地址： [**https://dlcdn.apache.org/flink/flink-1.13.2/flink-1.13.2-bin-scala_2.11.tgz**](https://dlcdn.apache.org/flink/flink-1.13.2/flink-1.13.2-bin-scala_2.11.tgz)
 
 ## 下载&安装
