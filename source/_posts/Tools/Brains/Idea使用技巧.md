@@ -7,8 +7,9 @@ abbrlink: b7429b01
 date: 2021-07-09 10:56:14
 ---
 
+## 修改GIt版本控制导
 
-## 修改GIt版本控制导致的文件颜色
+## 致的文件颜色
 
 Version Conntrol -> FIle Status
 

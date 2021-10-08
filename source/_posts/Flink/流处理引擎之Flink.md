@@ -9,11 +9,11 @@ date: 2021-07-09 10:55:17
 
 
 
+## Dataflow的重要概念。 
 
 
 
-
-
+## Flink集群运行模式
 
 
 ### InputFormat
@@ -33,6 +33,8 @@ InputFormat是用于生成数据的基本接口
 ### RichInputFormat
 
 相对于InputFormat增加了上下文，默认实现了OpenInputFormat、CloseInputFormat
+
+
 
 
 
