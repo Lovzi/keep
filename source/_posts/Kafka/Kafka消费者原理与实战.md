@@ -3,6 +3,7 @@ title: Kafka消费者原理与实战
 categories: Kafka
 tags:
   - Kafka
+abbrlink: 668efe40
 date: 2021-08-19 16:49:25
 ---
 

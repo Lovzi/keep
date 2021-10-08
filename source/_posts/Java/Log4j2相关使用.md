@@ -3,6 +3,7 @@ title: Log4j2相关使用
 categories: Java
 tags:
   - Java
+abbrlink: af473aeb
 date: 2021-09-29 19:58:09
 ---
 ## 为什么要使用Log4j2

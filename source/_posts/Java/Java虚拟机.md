@@ -3,6 +3,7 @@ title: Java虚拟机
 categories: Java
 tags:
   - Java
+abbrlink: 515d78b5
 date: 2021-10-01 20:02:03
 ---
 ## Java虚拟机的基础类型
