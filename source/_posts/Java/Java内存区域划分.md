@@ -1,3 +1,10 @@
+---
+title: Java内存区域划分
+categories: Java
+tags:
+  - Java
+date: 2021-10-10 22:25:08
+---
 ## Native Memory 
 
 在Java中， Native Memory 也叫做direct memory？ 后续我们都以`direct memory`来进行称呼。 

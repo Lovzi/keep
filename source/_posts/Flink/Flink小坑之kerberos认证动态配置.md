@@ -1,3 +1,10 @@
+---
+title: Flink小坑之kerberos认证动态配置
+categories: Flink
+tags:
+  - Flink
+date: 2021-10-12 14:09:39
+---
 
 
 
