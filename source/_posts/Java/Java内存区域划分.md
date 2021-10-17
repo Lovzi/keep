@@ -3,6 +3,7 @@ title: Java内存区域划分
 categories: Java
 tags:
   - Java
+abbrlink: c3952793
 date: 2021-10-10 22:25:08
 ---
 ## Native Memory 

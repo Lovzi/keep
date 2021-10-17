@@ -10,15 +10,9 @@ date: 2021-07-09 10:55:17
 
 #袋鼠云Flinx源码解读 
 
-
-
 ## 架构
 
-
-
 袋鼠云通过InputFormat， 并实现InputFormatSourceFunction来统一批流一体的架构，使其既可以继承批处理，又可以实现其流处理。
-
-
 
 ### KafkaReader
 
