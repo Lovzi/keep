@@ -1,5 +1,5 @@
 ---
-title: Java内存区域划分
+title: Java内存布局
 categories: Java
 tags:
   - Java
@@ -179,5 +179,4 @@ Java应用程序在需要操作direct memory的时候，会调用native方法将
 10. 现在heap memory中终于有我们想要的数据了。
 
 总结一下，数据的流转过程是：hard disk -> kernel buffer cache -> direct memory -> heap memory
-
 
