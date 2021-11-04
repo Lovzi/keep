@@ -1,3 +1,10 @@
+---
+title: Maven之版本依赖冲突
+categories: Maven
+tags:
+  - Maven
+date: 2021-11-02 20:17:25
+---
 
 
 ### 冲突背景
