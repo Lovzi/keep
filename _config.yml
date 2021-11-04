@@ -116,13 +116,13 @@ theme: keep
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-#deploy:
-#  type: 'git'
-#  repo: git@newton:/home/git/tesla.git
-#  branch: master
-
 deploy:
   type: 'git'
-  repo: git@github.com:Lovzi/lovzi.github.io.git
+  repo: git@82.157.127.22:/home/git/tesla.git
   branch: master
+
+#deploy:
+#  type: 'git'
+#  repo: git@github.com:Lovzi/lovzi.github.io.git
+#  branch: master
 
