@@ -1,3 +1,10 @@
+---
+title: FlinkKafkaProducer在精确一次语义下报错
+categories: Flink
+tags:
+  - Flink
+date: 2021-11-15 18:08:44
+---
 
 
 
