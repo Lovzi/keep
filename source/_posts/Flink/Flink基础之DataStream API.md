@@ -1,3 +1,10 @@
+---
+title: Flink基础之DataStream API
+categories: Flink
+tags:
+  - Flink
+date: 2022-01-05 14:48:13
+---
 # Flink基础之DataStream API
 
 ## 控制延迟和吞吐量
